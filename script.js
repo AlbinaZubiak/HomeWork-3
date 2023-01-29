@@ -1,6 +1,6 @@
 //Задание 1
 let password = 'пароль';
-let answerUser = prompt('');
+let answerUser = prompt('Введите пароль');
 if (answerUser === password) {
     alert("Пароль введен верно");
 } else {
@@ -28,9 +28,9 @@ if (d > 100 || e > 100) {
 }
 
 //Задание 4
-
-let a = 2;
-let b = 3;
+let a = '2';
+let b = '3';
+alert(Number(a) + Number(b));
 alert(a + b);
 
 //Задание 5
